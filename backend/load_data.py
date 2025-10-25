@@ -1,10 +1,4 @@
 #!/usr/bin/env python
-"""
-Load IPL dataset from CSV files into MongoDB
-Download dataset from: https://www.kaggle.com/manasgarg/ipl
-Put matches.csv and deliveries.csv in the data/ folder
-"""
-
 import os
 import sys
 import django
