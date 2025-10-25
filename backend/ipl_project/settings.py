@@ -56,7 +56,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'ipl_project.wsgi.application'
 
 
-# SQLite for Django admin, MongoDB for actual IPL data
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -69,7 +69,7 @@ MONGODB_SETTINGS = {
     'host': 'localhost',
     'port': 27017,
     'database': 'ipl_database',
-    # add username/password if needed
+   
 }
 
 
@@ -89,7 +89,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# Allow frontend to make requests
+
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
